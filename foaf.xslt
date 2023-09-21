@@ -11,7 +11,10 @@
     </head>
     <body>
       <h1>FOAF Profile</h1>
+      <!-- Appliquer le modèle pour les personnes que vous connaissez -->
       <xsl:apply-templates select="//foaf:Person"/>
+      <!-- Appliquer le modèle pour les collègues que vous connaissez -->
+      <xsl:apply-templates select="//foaf:knows/foaf:Person"/>
     </body>
   </html>
 </xsl:template>

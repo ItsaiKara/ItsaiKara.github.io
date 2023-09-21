@@ -15,5 +15,15 @@
         <foaf:family_name>ELOY</foaf:family_name>
         <foaf:homepage rdf:resource="http://ItsaiKara.github.io"/>
         <foaf:mbox rdf:resource="mailto:test@testxss"/>
+
+        <foaf:knows>
+            <foaf:Person>
+                <foaf:name>A-L Bonneau</foaf:name>
+                <foaf:title>M.</foaf:title>
+                <foaf:givenname>Arthur-Louis</foaf:givenname>
+                <foaf:family_name>Bonneau</foaf:family_name>
+            </foaf:Person>
+        </foaf:knows>
     </foaf:Person>
+    
 </rdf:RDF>
