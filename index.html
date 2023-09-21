@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RDF Data Display</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>RDF Data Display</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- FOAF Profile -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>FOAF Profile</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>First Name:</strong> <span id="foafFirstName">Tyfenn</span></p>
+                        <p><strong>Last Name:</strong> <span id="foafLastName">ELOY</span></p>
+                        <p><strong>Age:</strong> <span id="foafAge">22</span></p>
+                        <p><strong>Homepage:</strong> <a id="foafHomepage" href="http://aikara.fun">aikara.fun</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <!-- vCard Profile -->
+                <div class="card">
+                    <div class="card-header">
+                        <h2>vCard Profile</h2>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>Name:</strong> <span id="vcardName">Tyfenn Eloy</span></p>
+                        <p><strong>Age:</strong> <span id="vcardAge">22</span></p>
+                        <p><strong>Homepage:</strong> <a id="vcardHomepage" href="http://aikara.fun">aikara.fun</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS (Optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
