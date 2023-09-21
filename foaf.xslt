@@ -14,11 +14,11 @@
       <!-- Appliquer le modèle pour les personnes que vous connaissez -->
       <xsl:apply-templates select="//foaf:Person"/>
       <!-- Appliquer le modèle pour les collègues que vous connaissez -->
+      <h2> Conaissances</h2>
       <xsl:apply-templates select="//foaf:knows/foaf:Person"/>
     </body>
   </html>
 </xsl:template>
-
 <xsl:template match="foaf:Person">
   <div>
     <h2><xsl:value-of select="foaf:title"/> <xsl:value-of select="foaf:name"/></h2>
