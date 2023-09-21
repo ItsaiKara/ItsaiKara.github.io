@@ -1,6 +1,8 @@
 # TP 1
 **/!\\ Les fichiers ne seront pas disponibles indéfiniment j'ai d'autres projet plus important à mettre en avant sur ma page github. De plus je ne souhaite pas trop exposer mon identité sur internet /!\\**
 ## Exercice 1
+[La page web d'accueil](https://itsaikara.github.io/)
+
 J'ai commencé par ne pas comprendre la consigne en créant un fichier html en guise de page d'acceuil (que j'ai gardé afin de laisser les différents documents acessible facilement)
 
 Une fois cela fait j'ai crééer mon fichier RDF contenant certaines de mes informations personnelles.
@@ -57,6 +59,8 @@ Nous lançons ensuite le crawler avec la commande:
 ``` java -jar ldspider-1.3-with-dependencies.jar -s ./liens -o output.rdf -c 10 ```
 
 A en juger par la sortie du programme il a trouvé quelques personnes. Car le fichier fait plus de 600 lignes
+
+
 
 ## Conclusion
 Ce TP a couvert la création de fichiers RDF, la transformation en HTML avec XSLT, l'utilisation d'un crawler pour découvrir d'autres ressources FOAF, et la préservation de la confidentialité des données personnelles.

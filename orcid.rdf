@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<?xml-stylesheet type="text/xsl" href="foaf.xslt"?>
+<?xml-stylesheet type="text/xsl" href="orcid.xslt"?>
 <record:record path="/0009-0000-5455-5181" xmlns:internal="http://www.orcid.org/ns/internal"
     xmlns:education="http://www.orcid.org/ns/education"
     xmlns:distinction="http://www.orcid.org/ns/distinction"
