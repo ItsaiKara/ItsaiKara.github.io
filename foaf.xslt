@@ -12,13 +12,14 @@
     <body>
       <h1>FOAF Profile</h1>
       <!-- Appliquer le modèle pour les personnes que vous connaissez -->
-      <xsl:apply-templates select="//foaf:Person"/>
+      <xsl:apply-templates select="//foaf:Person[not(ancestor::foaf:knows)]"/>
       <!-- Appliquer le modèle pour les collègues que vous connaissez -->
-      <h2> Conaissances</h2>
-      <xsl:apply-templates select="//foaf:knows/foaf:Person"/>
+      <h2>Connaissances</h2>
+      <xsl:apply-templates select="//foaf:Person[ancestor::foaf:knows]"/>
     </body>
   </html>
 </xsl:template>
+
 <xsl:template match="foaf:Person">
   <div>
     <h2><xsl:value-of select="foaf:title"/> <xsl:value-of select="foaf:name"/></h2>
